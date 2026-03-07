@@ -25,7 +25,7 @@ The most popular and widely-used MCP servers in the ecosystem:
 | 10 | [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant) | ![Stars](https://img.shields.io/github/stars/qdrant/mcp-server-qdrant) | Qdrant vector database |
 | 11 | [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) | ![Stars](https://img.shields.io/github/stars/GLips/Figma-Context-MCP) | Figma layout info for AI coding |
 | 12 | [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) | ![Stars](https://img.shields.io/github/stars/sooperset/mcp-atlassian) | Confluence & Jira integration |
-| 13 | [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) | ![Stars](https://img.shields.io/github/stars/tadata-org/fastapi_mcp) | Expose FastAPI as MCP tools |
+| 13 | [arben-adm/mcp-sequential-thinking](https://github.com/arben-adm/mcp-sequential-thinking) | ![Stars](https://img.shields.io/github/stars/arben-adm/mcp-sequential-thinking) | Sequential thinking for enhanced reasoning |
 | 14 | [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) | ![Stars](https://img.shields.io/github/stars/containers/kubernetes-mcp-server) | Kubernetes & OpenShift |
 | 15 | [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | ![Stars](https://img.shields.io/github/stars/mcp-use/mcp-use) | Fullstack MCP framework |
 
