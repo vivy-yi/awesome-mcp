@@ -11,6 +11,7 @@ Model Context Protocol (MCP) is an open protocol that enables AI assistants to c
 
 - [Official](#official)
 - [Management Tools](#management-tools)
+- [UI & Testing](#ui--testing)
 - [Core Servers](#core-servers)
 - [Cloud Services](#cloud-services)
 - [Database](#database)
@@ -80,6 +81,38 @@ Tools for managing, adapting, and integrating MCP servers.
 
 - [i2y/langchaingo-mcp-adapter](https://github.com/i2y/langchaingo-mcp-adapter) - LangChain Go MCP adapter
 - [dshivendra/crewai_mcp_adapter](https://github.com/dshivendra/crewai_mcp_adapter) - CrewAI MCP adapter
+
+---
+
+## UI & Testing
+
+Dashboards, GUIs, and testing tools for MCP servers.
+
+### MCP Dashboards
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [ogison/mcp-dashboard](https://github.com/ogison/mcp-dashboard) | ![Stars](https://img.shields.io/github/stars/ogison/mcp-dashboard) | GUI to register and manage MCP servers without editing config |
+| [Chillbruhhh/MCPportal](https://github.com/Chillbruhhh/MCPportal) | ![Stars](https://img.shields.io/github/stars/Chillbruhhh/MCPportal) | Configure and manage all MCPs through one single endpoint |
+| [bryankthompson/mcp-dashboard](https://github.com/bryankthompson/mcp-dashboard) | ![Stars](https://img.shields.io/github/stars/bryankthompson/mcp-dashboard) | Management interface for multiple MCP servers with real-time updates |
+| [dongkyun-yoo/mcp-dashboard](https://github.com/dongkyun-yoo/mcp-dashboard) | ![Stars](https://img.shields.io/github/stars/dongkyun-yoo/mcp-dashboard) | Full-stack MCP Server Control Dashboard for Claude Code |
+
+### MCP Inspectors & Testing Tools
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [mcp-use/inspector](https://github.com/mcp-use/inspector) | ![Stars](https://img.shields.io/github/stars/mcp-use/inspector) | Modern MCP Inspector for remote MCP servers |
+| [lujin3/mcp-inspector](https://github.com/lujin3/mcp-inspector) | ![Stars](https://img.shields.io/github/stars/lujin3/mcp-inspector) | MCP Inspector based on Tauri 2 + Vue 3 |
+| [dabit3/mcp-inspector](https://github.com/dabit3/mcp-inspector) | ![Stars](https://img.shields.io/github/stars/dabit3/mcp-inspector) | CLI tool to inspect MCP servers and analyze token costs |
+| [paulrobello/par-mcp-inspector-tui](https://github.com/paulrobello/par-mcp-inspector-tui) | ![Stars](https://img.shields.io/github/stars/paulrobello/par-mcp-inspector-tui) | TUI to inspect and test MCP servers |
+
+### VSCode Extensions
+
+- [saxon-is-my-name/mcp-dashboard](https://github.com/saxon-is-my-name/mcp-dashboard) - VS Code extension to invoke MCP tools from GUI
+
+### Desktop & GUI Apps
+
+- [michaelmoser8875/MCP-Dashboard](https://github.com/michaelmoser8875/MCP-Dashboard) - Dashboard for inspecting tools, resources, and prompts
 
 ---
 
