@@ -10,6 +10,7 @@ Model Context Protocol (MCP) is an open protocol that enables AI assistants to c
 ## Contents
 
 - [Official](#official)
+- [Management Tools](#management-tools)
 - [Core Servers](#core-servers)
 - [Cloud Services](#cloud-services)
 - [Database](#database)
@@ -38,6 +39,47 @@ Official MCP specification, SDKs, and reference implementations.
 | [modelcontextprotocol/swift-sdk](https://github.com/modelcontextprotocol/swift-sdk) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/swift-sdk) | Official Swift SDK | Swift |
 | [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | TypeScript |
 | [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/registry) | Community-driven MCP server registry | TypeScript |
+
+---
+
+## Management Tools
+
+Tools for managing, adapting, and integrating MCP servers.
+
+### Server Management & CLI
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [smithery-ai/cli](https://github.com/smithery-ai/cli) | ![Stars](https://img.shields.io/github/stars/smithery-ai/cli) | Install, manage and develop MCP servers and skills |
+| [TanStack/cli](https://github.com/TanStack/cli) | ![Stars](https://img.shields.io/github/stars/TanStack/cli) | Official TanStack CLI with MCP server and skills support |
+
+### Adapters & Bridges
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [grll/mcpadapt](https://github.com/grll/mcpadapt) | ![Stars](https://img.shields.io/github/stars/grll/mcpadapt) | Unlock 650+ MCP servers in agentic frameworks |
+| [steipete/mcporter](https://github.com/steipete/mcporter) | ![Stars](https://img.shields.io/github/stars/steipete/mcporter) | Call MCPs via TypeScript, masquerading as simple API |
+| [langchain-ai/langchain-mcp-adapters](https://github.com/langchain-ai/langchain-mcp-adapters) | ![Stars](https://img.shields.io/github/stars/langchain-ai/langchain-mcp-adapters) | LangChain MCP adapters |
+| [SecretiveShell/MCP-actions-adapter](https://github.com/SecretiveShell/MCP-actions-adapter) | ![Stars](https://img.shields.io/github/stars/SecretiveShell/MCP-actions-adapter) | Convert MCP server to GPT Actions compatible API |
+| [pawneetdev/rest-to-mcp-adapter](https://github.com/pawneetdev/rest-to-mcp-adapter) | ![Stars](https://img.shields.io/github/stars/pawneetdev/rest-to-mcp-adapter) | Convert REST API specs to MCP tools |
+
+### Protocol Converters
+
+- [pyroprompts/mcp-stdio-to-streamable-http-adapter](https://github.com/pyroprompts/mcp-stdio-to-streamable-http-adapter) - STDIO to Streamable HTTP proxy
+- [Moe03/mcp-express-adapter](https://github.com/Moe03/mcp-express-adapter) - Run multiple MCP clients on Express server
+- [open-webui/mcpo](https://github.com/open-webui/mcpo) - MCP-to-OpenAPI proxy server
+
+### Skills & Prompt Management
+
+- [microsoft/skills](https://github.com/microsoft/skills) - Microsoft skills, MCP servers, Custom Agents
+- [K-Dense-AI/claude-skills-mcp](https://github.com/K-Dense-AI/claude-skills-mcp) - MCP server for searching Claude Agent Skills
+- [intellectronica/skillz](https://github.com/intellectronica/skillz) - MCP server for loading skills
+- [snyk/agent-scan](https://github.com/snyk/agent-scan) - Security scanner for AI agents and MCP servers
+
+### LangChain Integrations
+
+- [i2y/langchaingo-mcp-adapter](https://github.com/i2y/langchaingo-mcp-adapter) - LangChain Go MCP adapter
+- [dshivendra/crewai_mcp_adapter](https://github.com/dshivendra/crewai_mcp_adapter) - CrewAI MCP adapter
 
 ---
 
@@ -125,7 +167,7 @@ MCP servers for messaging and communication platforms.
 MCP servers for productivity tools and workflows.
 
 - [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) - Expose FastAPI as MCP tools
--/mcpo](https://github.com [open-webui/open-webui/mcpo) - MCP-to-OpenAPI proxy server
+- [open-webui/mcpo](https://github.com/open-webui/mcpo) - MCP-to-OpenAPI proxy server
 
 ---
 
@@ -180,7 +222,6 @@ Frameworks and SDKs for building MCP servers and clients.
 ### Multi-Language
 
 - [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client) - Open MCP client library
-- [grll/mcpadapt](https://github.com/grll/mcpadapt) - Unlock MCP servers in agentic frameworks
 
 ### Agent Frameworks with MCP Support
 
