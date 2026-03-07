@@ -1,0 +1,214 @@
+# Awesome MCP
+
+> A comprehensive curated list of Model Context Protocol (MCP) resources, servers, clients, frameworks, and tools.
+
+[![Stars](https://img.shields.io/github/stars/vivy-yi/awesome-mcp)](https://github.com/vivy-yi/awesome-mcp)
+[![License](https://img.shields.io/badge/license-CC0--1.0-blue)](LICENSE)
+
+Model Context Protocol (MCP) is an open protocol that enables AI assistants to connect with external data sources and tools. This list aggregates MCP resources from across the ecosystem.
+
+## Contents
+
+- [Official](#official)
+- [Core Servers](#core-servers)
+- [Cloud Services](#cloud-services)
+- [Database](#database)
+- [Browser & Automation](#browser--automation)
+- [Search & Scraping](#search--scraping)
+- [Development Tools](#development-tools)
+- [Communication](#communication)
+- [Productivity](#productivity)
+- [Clients](#clients)
+- [Frameworks & SDKs](#frameworks--sdks)
+- [Resources](#resources)
+
+---
+
+## Official
+
+Official MCP specification, SDKs, and reference implementations.
+
+| Project | Stars | Description | Language |
+|---------|-------|-------------|----------|
+| [modelcontextprotocol/modelcontextprotocol](https://github.com/modelcontextprotocol/modelcontextprotocol) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/modelcontextprotocol) | Specification and documentation for MCP | - |
+| [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/servers) | Official MCP reference servers | TypeScript |
+| [modelcontextprotocol/python-sdk](https://github.com/modelcontextprotocol/python-sdk) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/python-sdk) | Official Python SDK | Python |
+| [modelcontextprotocol/typescript-sdk](https://github.com/modelcontextprotocol/typescript-sdk) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/typescript-sdk) | Official TypeScript SDK | TypeScript |
+| [modelcontextprotocol/rust-sdk](https://github.com/modelcontextprotocol/rust-sdk) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/rust-sdk) | Official Rust SDK | Rust |
+| [modelcontextprotocol/swift-sdk](https://github.com/modelcontextprotocol/swift-sdk) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/swift-sdk) | Official Swift SDK | Swift |
+| [modelcontextprotocol/inspector](https://github.com/modelcontextprotocol/inspector) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/inspector) | Visual testing tool for MCP servers | TypeScript |
+| [modelcontextprotocol/registry](https://github.com/modelcontextprotocol/registry) | ![Stars](https://img.shields.io/github/stars/modelcontextprotocol/registry) | Community-driven MCP server registry | TypeScript |
+
+---
+
+## Core Servers
+
+Official and reference MCP server implementations.
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [awslabs/mcp](https://github.com/awslabs/mcp) | ![Stars](https://img.shields.io/github/stars/awslabs/mcp) | Official AWS MCP servers |
+| [microsoft/mcp](https://github.com/microsoft/mcp) | ![Stars](https://img.shields.io/github/stars/microsoft/mcp) | Microsoft MCP server implementations |
+| [github/github-mcp-server](https://github.com/github/github-mcp-server) | ![Stars](https://img.shields.io/github/stars/github/github-mcp-server) | GitHub's official MCP server |
+| [googleapis/genai-toolbox](https://github.com/googleapis/genai-toolbox) | ![Stars](https://img.shields.io/github/stars/googleapis/genai-toolbox) | MCP Toolbox for Databases |
+| [IBM/mcp](https://github.com/IBM/mcp) | ![Stars](https://img.shields.io/github/stars/IBM/mcp) | IBM MCP servers and developer tools |
+
+---
+
+## Cloud Services
+
+MCP servers for cloud platforms and services.
+
+- [cloudflare/mcp-server-cloudflare](https://github.com/cloudflare/mcp-server-cloudflare) - Cloudflare MCP server
+- [makenotion/notion-mcp-server](https://github.com/makenotion/notion-mcp-server) - Official Notion MCP server
+- [MicrosoftDocs/mcp](https://github.com/MicrosoftDocs/mcp) - Microsoft Learn MCP server
+- [antvis/mcp-server-chart](https://github.com/antvis/mcp-server-chart) - Chart visualization using AntV
+
+---
+
+## Database
+
+MCP servers for database access and management.
+
+- [neo4j-contrib/mcp-neo4j](https://github.com/neo4j-contrib/mcp-neo4j) - Neo4j graph database MCP server
+- [qdrant/mcp-server-qdrant](https://github.com/qdrant/mcp-server-qdrant) - Qdrant vector database MCP server
+- [containers/kubernetes-mcp-server](https://github.com/containers/kubernetes-mcp-server) - Kubernetes MCP server
+- [haris-musa/excel-mcp-server](https://github.com/haris-musa/excel-mcp-server) - Excel file manipulation
+
+---
+
+## Browser & Automation
+
+MCP servers for browser control and automation.
+
+- [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) - Playwright MCP server
+- [BrowserMCP/mcp](https://github.com/BrowserMCP/mcp) - Browser control via MCP
+- [browserbase/mcp-server-browserbase](https://github.com/browserbase/mcp-server-browserbase) - Browser automation with Browserbase
+- [hangwin/mcp-chrome](https://github.com/hangwin/mcp-chrome) - Chrome extension-based MCP server
+- [CursorTouch/Windows-MCP](https://github.com/CursorTouch/Windows-MCP) - Windows computer use MCP server
+
+---
+
+## Search & Scraping
+
+MCP servers for web search and content extraction.
+
+- [exa-labs/exa-mcp-server](https://github.com/exa-labs/exa-mcp-server) - Exa web search and crawling
+- [firecrawl/firecrawl-mcp-server](https://github.com/firecrawl/firecrawl-mcp-server) - Official Firecrawl web scraping
+- [LaurieWired/GhidraMCP](https://github.com/LaurieWired/GhidraMCP) - Ghidra reverse engineering
+
+---
+
+## Development Tools
+
+MCP servers for developer workflows and tooling.
+
+- [sooperset/mcp-atlassian](https://github.com/sooperset/mcp-atlassian) - Atlassian tools (Confluence, Jira)
+- [GLips/Figma-Context-MCP](https://github.com/GLips/Figma-Context-MCP) - Figma layout information for AI coding agents
+- [svnscha/mcp-windbg](https://github.com/svnscha/mcp-windbg) - WinDBG debugging
+- [neka-nat/freecad-mcp](https://github.com/neka-nat/freecad-mcp) - FreeCAD MCP server
+- [genomoncology/biomcp](https://github.com/genomoncology/biomcp) - Biomedical data MCP server
+
+---
+
+## Communication
+
+MCP servers for messaging and communication platforms.
+
+- [lharries/whatsapp-mcp](https://github.com/lharries/whatsapp-mcp) - WhatsApp MCP server
+- [BeehiveInnovations/pal-mcp-server](https://github.com/BeehiveInnovations/pal-mcp-server) - Multi-model MCP server
+
+---
+
+## Productivity
+
+MCP servers for productivity tools and workflows.
+
+- [tadata-org/fastapi_mcp](https://github.com/tadata-org/fastapi_mcp) - Expose FastAPI as MCP tools
+-/mcpo](https://github.com [open-webui/open-webui/mcpo) - MCP-to-OpenAPI proxy server
+
+---
+
+## Clients
+
+Applications and tools that support MCP protocol.
+
+### Desktop Clients
+
+- [indragiek/Context](https://github.com/indragiek/Context) - Native macOS MCP client
+- [nbonamy/witsy](https://github.com/nbonamy/witsy) - Desktop AI assistant / universal MCP client
+- [daodao97/chatmcp](https://github.com/daodao97/chatmcp) - AI chat client implementing MCP
+
+### CLI Clients
+
+- [adhikasp/mcp-client-cli](https://github.com/adhikasp/mcp-client-cli) - Simple CLI for MCP client
+- [jonigl/mcp-client-for-ollama](https://github.com/jonigl/mcp-client-for-ollama) - TUI client for MCP with Ollama
+- [zaidmukaddam/scira-mcp-chat](https://github.com/zaidmukaddam/scira-mcp-chat) - Minimalistic MCP client
+
+### Editor/IDE Plugins
+
+- [opensumi/core](https://github.com/opensumi/core) - AI Native IDE with MCP support
+- [lizqwerscott/mcp.el](https://github.com/lizqwerscott/mcp.el) - MCP client inside Emacs
+- [LSTM-Kirigaya/openmcp-client](https://github.com/LSTM-Kirigaya/openmcp-client) - VSCode MCP plugin
+
+### Game Engine Integration
+
+- [CoplayDev/unity-mcp](https://github.com/CoplayDev/unity-mcp) - Unity Editor MCP integration
+- [chongdashu/unreal-mcp](https://github.com/chongdashu/unreal-mcp) - Unreal Engine MCP integration
+
+---
+
+## Frameworks & SDKs
+
+Frameworks and SDKs for building MCP servers and clients.
+
+### TypeScript/JavaScript
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [punkpeye/fastmcp](https://github.com/punkpeye/fastmcp) | ![Stars](https://img.shields.io/github/stars/punkpeye/fastmcp) | TypeScript framework for building MCP servers |
+| [basementstudio/xmcp](https://github.com/basementstudio/xmcp) | ![Stars](https://img.shields.io/github/stars/basementstudio/xmcp) | TypeScript MCP framework |
+| [QuantGeekDev/mcp-framework](https://github.com/QuantGeekDev/mcp-framework) | ![Stars](https://img.shields.io/github/stars/QuantGeekDev/mcp-framework) | Framework for writing MCP servers in TypeScript |
+
+### Python
+
+| Project | Stars | Description |
+|---------|-------|-------------|
+| [PrefectHQ/fastmcp](https://github.com/PrefectHQ/fastmcp) | ![Stars](https://img.shields.io/github/stars/PrefectHQ/fastmcp) | Fast, Pythonic way to build MCP servers |
+| [mcp-use/mcp-use](https://github.com/mcp-use/mcp-use) | ![Stars](https://img.shields.io/github/stars/mcp-use/mcp-use) | Fullstack MCP framework for AI agents |
+
+### Multi-Language
+
+- [CopilotKit/open-mcp-client](https://github.com/CopilotKit/open-mcp-client) - Open MCP client library
+- [grll/mcpadapt](https://github.com/grll/mcpadapt) - Unlock MCP servers in agentic frameworks
+
+### Agent Frameworks with MCP Support
+
+- [lastmile-ai/mcp-agent](https://github.com/lastmile-ai/mcp-agent) - Build agents using MCP and workflow patterns
+- [heurist-network/heurist-agent-framework](https://github.com/heurist-network/heurist-agent-framework) - Flexible AI agent framework with MCP support
+- [QwenLM/Qwen-Agent](https://github.com/QwenLM/Qwen-Agent) - Agent framework with MCP, RAG, Chrome extension
+- [OpenBMB/UltraRAG](https://github.com/OpenBMB/UltraRAG) - Low-code MCP framework for RAG pipelines
+- [SalesforceAIResearch/MCP-Universe](https://github.com/SalesforceAIResearch/MCP-Universe) - Framework for developing and benchmarking AI agents
+- [rinadelph/Agent-MCP](https://github.com/rinadelph/Agent-MCP) - Multi-agent system framework via MCP
+- [alpic-ai/skybridge](https://github.com/alpic-ai/skybridge) - Framework for building ChatGPT & MCP apps
+
+---
+
+## Resources
+
+Documentation, tutorials, and learning materials.
+
+- [modelcontextprotocol/docs](https://github.com/modelcontextprotocol/docs) - Official MCP documentation
+- [leerob/directories](https://github.com/leerob/directories) - Find rules and MCP servers
+
+---
+
+## Contributing
+
+Contributions are welcome! Please read the [contributing guidelines](CONTRIBUTING.md) before submitting PRs.
+
+## License
+
+[![CC0 1.0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [vivy-yi](https://github.com/vivy-yi) has waived all copyright and related or neighboring rights to this work.
